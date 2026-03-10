@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>User Dashboard</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+<h1>User Dashboard</h1>
+
+<h3 id="welcome"></h3>
+
+<div class="card-grid">
+
+<div class="card">
+<i class="fa-solid fa-user icon"></i>
+<h3>Name</h3>
+<p id="name"></p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-envelope icon"></i>
+<h3>Email</h3>
+<p id="email"></p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-id-badge icon"></i>
+<h3>Role</h3>
+<p id="role"></p>
+</div>
+
+</div>
+
+<br>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
