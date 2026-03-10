@@ -1,4 +1,5 @@
-# User Management System with Admin Dashboard
+# Smart User Management System
+
 
 ## Project Overview
 
@@ -27,21 +28,30 @@ The system demonstrates basic authentication flow, server-side routing, and user
 ## 📂 Project Structure
 
 ```
-project-folder/
-│
-├── server.js
-├── package.json
-├── README.md
+Smart-User-Management-System/
 │
 ├── public/
-│   ├── css
-│   ├── js
+│   ├── admin-login.html
+│   ├── admin-login.js
+│   ├── admin.html
+│   ├── admin.js
+│   ├── dashboard.html
+│   ├── dashboard.js
+│   ├── index.html
+│   ├── login.html
+│   ├── login.js
+│   ├── register.html
+│   ├── register.js
+│   └── style.css
 │
-├── views/
-│   ├── login
-│   ├── register
-│   ├── dashboard
-│   └── admin
+├── db.js
+├── server.js
+│
+├── package.json
+├── package-lock.json
+├── .gitignore
+│
+└── README.md 
 ```
 
 ## ⚙️ Setup Instructions
